@@ -8,6 +8,7 @@ public class ItemFormat {
     private Money price;
     private String description;
 
+
     public ItemFormat(String description, Money price) {
         this.price = price;
         this.description = description;
@@ -18,5 +19,7 @@ public class ItemFormat {
         p.print(" ");
         price.print(p);
         p.newLine();
+
+        //price.printItemsTotalPrice();
     }
 }
